@@ -2,6 +2,10 @@ import React from 'react';
 import t from 'prop-types';
 
 export interface AlertProps {
+  /**
+   * @description       Alert 的类型
+   * @default           'info'
+   */
   kind?: 'info' | 'positive' | 'negative' | 'warning';
 }
 
@@ -28,6 +32,7 @@ const Alert: React.FC<AlertProps> = ({ children, kind = 'info', ...rest }) => (
   </div>
 );
 
+// 类型检查
 Alert.propTypes = {
   kind: t.oneOf(['info', 'positive', 'negative', 'warning']),
 };
