@@ -12,6 +12,7 @@
 /build
 /assets
 /package-lock.json
+/src/.umi
 # misc
 .DS_Store
 .env.local
