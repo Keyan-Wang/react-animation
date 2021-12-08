@@ -2,7 +2,7 @@
 title: React Animation
 hero:
   title: React Animation
-  desc: 关于react的动画demo库
+  desc: 关于react的动画库
   actions:
     - text: 快速上手
       link: /alert/alert
